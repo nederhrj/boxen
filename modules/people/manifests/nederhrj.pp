@@ -9,7 +9,7 @@ class people::nederhrj {
       'user.email': value => 'rene@nederhand.net' ;
    }
 
-   github chrome
+   include chrome
    include cyberduck
    include iterm2::dev
 
