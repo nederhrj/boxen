@@ -40,10 +40,10 @@ class people::nederhrj {
    include wget
 
 
-   osx::dock::autohide
-   osx::finder::show_all_on_desktop
-   osx::finder::unhide_library
-   osx::disable_app_quarantine
-   osx::no_network_dsstores
-   osx::software_update
+   include osx::dock::autohide
+   include osx::finder::show_all_on_desktop
+   include osx::finder::unhide_library
+   include osx::disable_app_quarantine
+   include osx::no_network_dsstores
+   include osx::software_update
 }
