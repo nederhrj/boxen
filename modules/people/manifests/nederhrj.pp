@@ -32,7 +32,7 @@ class people::nederhrj {
    include colloquy
    include googledrive
    include alfred
-   include clipmenu
+#   include clipmenu
    include mplayerx
    include onepassword
    include skype 
