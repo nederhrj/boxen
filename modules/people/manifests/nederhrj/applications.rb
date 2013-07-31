@@ -3,10 +3,10 @@ class people::nederhrj::applications {
    include cyberduck
    include iterm2::dev
 
-   class { 'intellij':
-       edition => 'ultimate',
-       version => '12.1.4'
-   }
+#   class { 'intellij':
+#       edition => 'ultimate',
+#       version => '12.1.4'
+#   }
 
    include java
    include dropbox
