@@ -8,6 +8,7 @@ class people::nederhrj {
       'alias.st': value => 'status' ;
       'alias.ci': value => 'commit' ;
       'user.name': value => 'nederhrj' ;
+      'user.email': value => 'rene@nederhand.net' ;
    }
 
 }
