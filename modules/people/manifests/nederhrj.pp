@@ -13,10 +13,10 @@ class people::nederhrj {
    include cyberduck
    include iterm2::dev
 
-#   class { 'intellij':
-#       edition => 'ultimate',
-#       version => '12.1.4'
-#   }
+   class { 'intellij':
+       edition => 'ultimate',
+       version => '12.1.4'
+   }
 
    include java
    include dropbox
@@ -34,7 +34,7 @@ class people::nederhrj {
    include alfred
 #   include clipmenu
    include mplayerx
-   include onepassword
+#   include onepassword
    include skype 
    include spotify
    include wget
