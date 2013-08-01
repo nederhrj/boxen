@@ -20,7 +20,7 @@ class people::nederhrj {
 
    include java
    include dropbox
-   include calibre
+#   include calibre
    include pycharm
    include macvim
    include screen
